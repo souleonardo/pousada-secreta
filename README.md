@@ -1,4 +1,4 @@
-# HomePage of Pousada Secreta 
+# Home of Pousada Secreta 
 ## Used Tecnologies
 <ul>
   <li>HTML</>
