@@ -270,7 +270,41 @@ footer{
   color: #fff;
 }
 
+/*Button Fixed*/
+.btn-fixed{
+  background-color:#97D3F6  ;
+  position:fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
 
+.btn-fixed{
+  background-color:#97D3F6  ;
+  position:fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.btn-fixed:hover{
+  background-color: rgb(127, 147, 207);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ 
+}
+
+.btn-fixed.visible{
+  visibility: visible;
+}
+/*End Styles*/
 
 
 
