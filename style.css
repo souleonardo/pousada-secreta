@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;1,100;1,200&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+}
+/*Fixed Header*/
+header section div a span{
+  color: #0F79CE;
+}
+
+header section div a {
+  color: #000000;
+  font-weight: bold;
+  padding: 15px;
+}
+
+header{
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+header section{
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  height: 40px;
+}
+
+.top-menu ul li{
+  display: inline-block;
+  font-weight: 600;
+}
+
+.top-menu ul li a:hover{
+color: #0F79CE;
+border-bottom: black solid;
+}
+.top-menu ul li a{
+ color: #000000;
+ padding-left: 20px;
+}
+
+.link{
+  display: flex;
+  padding-right: 200px;
+}
+
+/*main-container*/
+.main-container{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  height: 350px;
+  background-image: url(./assets/img-fundo.jpg);
+  background-size: cover;
+  background-position: initial;
+}
+
+.main-container div{
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.514);
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #FFF;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.main-container div h1{
+  padding-bottom: 25px;
+}
+
+/*Welcome class*/
+.welcome{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px;
+}
+
+.welcome h3{
+    padding-bottom: 20px ;
+}
+
+.rooms-container img{
+  margin: 0 auto;
+  width: 250px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.rooms-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rooms-container div{
+  font-weight:600;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.rooms-container a{
+  color:black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: #0F79CE solid;
+}
+
+.rooms-container a:hover{
+  color:#0F79CE;
+  border-bottom: black solid;
+}
+
+/*ROUTES IFRAME*/
+
+.routes{
+    padding: 20px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.routes h3{
+  padding-bottom: 20px;
+}
+
+.routes p{
+  padding-bottom: 20px;
+}
+
+iframe{
+
+  width: 100%;
+}
+
+/*About*/
+
+.about{
+  padding: 20px;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h3{
+  padding-bottom: 20px;
+}
+
+.about p{
+  padding-bottom: 20px;
+}
+
+.about-container img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+
+.about-container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;  
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.about-container div img{
+  display: flex;
+  justify-content: space-between;
+  float: right;  
+  border-radius: 5px;
+}
+
+.about-container div{
+  width: 50%;
+  align-items: center;
+  padding: 15px
+  
+}
+
+.rooms-container2{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rooms-container2{
+  display: inline-block;
+}
+
+.place{
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+
+.food{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recept{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/*Footer styles*/
+
+footer{
+  background-color: #298B58;
+}
+
+.contact {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.contact div{
+  padding-left: 20px;
+  color: #fff;
+}
+
+
+.contact div p{
+  padding-left: 20px;
+  display: inline;
+}
+
+.copy{
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 10px;
+}
+
+.contact div a,h3{
+  color: #fff;
+}
+
+
+
+
+

@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pousada Secreta</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <section>
-        <div><a href="index.html"></a>Pousada <span>Secreta</span></div>
-        <nav>
+        <div><a href="index.html">Pousada <span>Secreta</span></a></div>
+        <div class="top-menu">
           <ul>
             <li><a href="#about">SOBRE</a></li>
             <li><a href="#routes">ROTA</a></li>
             <li><a href="#rooms">QUARTOS</a></li>
           </ul>
-        </nav>
+        </div>
       </section>
     </header>
-    <main class="main-container">
+    <main >
+      <section class="main-container">
       <div>
         <h1>Pousada Secreta</h1>
         <p>A pousada reservada em Angra dos Reis</p>
       </div>
+    </section>
       <div class="welcome">
-        <h1>
+        <h3>
           SEJA BEM VINDO(A)!
-          <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
-          <p>Temos quartos para solteiro, casal ou família.</p>
-        </h1>
+        </h3>
+        <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis</p>
+        <p>Temos quartos para solteiro, casal ou família.</p>
       </div>
       <div class="rooms-container">
         <div>
@@ -46,61 +50,72 @@
         </div>
       </div>
       <div id="routes" class="routes">
-        <h1>ROTA</h1>
+        <h3>ROTA</h3>
         <p>Veja como chegar até a pousada</p>
       </div>
       <div class="iframe-google"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444589.69014302606!2d-43.08278526938086!3d-22.732195500974655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1642788185447!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
       <div id="about" class="about">
-        <h1>SOBRE A POUSADA!</h1>
+        <h3>SOBRE A POUSADA!</h3>
         <p>Conheça um pouco sobre nossa pousada</p>
       </div>
       <div class="about-container">
         <div>
+          <div class="place">
           <h3>A pousada</h3>
           <p>
             A pousada dispõe de estacionamento privativo gratuito, piscina ao ar
             livre e bar
           </p>
+        </div>
           <img src="./assets/img1.jpg" alt="the place" />
         </div>
         <div>
+          <div class="food">
           <h3>Alimentação</h3>
           <p>
             A pousada serve café da manhã em estilo continental ou buffet.
             Nossos restaurantes funcionam 24h.
           </p>
+        </div>
           <img src="./assets/img3.jpg" alt="#" />
         </div>
-        <div>
+        <div id="rooms">
+          <div class="rooms-container2">
           <h3>Nossos quartos</h3>
           <p>
             Os quartos possuem TV de tela plana a cabo, cozinha compacta e área
             para refeições. Além disso, as unidades da pousada contam com
             ar-condicionado.
           </p>
+        </div>
+        
           <img src="./assets/img2.jpg" alt="our rooms" />
+        
         </div>
         <div>
+          <div class="recept">
           <h3>Recepção</h3>
           <p>Nossa recepção fica aberta 24h.</p>
+        </div>
           <img src="./assets/img5.jpg" alt="hotel's reception" />
         </div>
       </div>
     </main>
     <footer>
       <div class="footer">
-        <div class="contact"><h3>Entre em contato conosco</h3></div>
-        <div>
-          <a href="#"><img src="./assets/icons/endereco.png" alt="endereco" /> endereço:
+        <div class="contact"><h3>Entre em contato conosco:</h3>
+          <div>
+            <a href="#"><img src="./assets/icons/endereco.png" alt="endereco" /> endereço:
             Av 123, 222 Rio de Janeiro-RJ</a>
+          </div>
+           <div>
+           <img src="./assets/icons/telefone.png" alt="" />
+           <p type="tel">Cel: 5521000000</p>
+           </div>
+           <div>
+          <a href="#"><img src="./assets/icons/calendario.png"  alt="endereco" />Faça sua reserva pelo Booking.com</a>
         </div>
-        <div>
-          <img src="./assets/icons/telefone.png" alt="" />
-          <p>Cel: 5521000000</p>
-        </div>
-        <div>
-          <a href="#"><img src="./assets/icons/calendario.png" alt="endereco" />Faça sua reserva pelo Booking.com</a>
-        </div>
+      </div>
       <div class="copy">&copy;Copyright - Pousada</div>
     </footer>
   </body>
